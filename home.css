@@ -1,0 +1,59 @@
+.Lightweb{
+    color: antiquewhite;
+}
+h1, nav, ul, li{
+    display: inline-block;
+}
+h1{
+    margin-left: 50px;
+}
+nav{
+    margin-left: 470px;
+}
+li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main{
+    position: relative;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./man_programming.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
